@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="sw">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT US - ULINZI WA KIMTANDAO</title>
+
+    <style>
+        /* ===== RESET ===== */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Segoe UI", Tahoma, Arial, sans-serif;
+        }
+
+        body {
+            background-color: #0b132b;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+
+        /* ===== HEADER ===== */
+        header {
+            background: linear-gradient(135deg, #1c2541, #3a86ff);
+            padding: 25px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 28px;
+            margin-bottom: 15px;
+            letter-spacing: 1px;
+        }
+
+        /* ===== NAV ===== */
+        nav a {
+            text-decoration: none;
+            color: #ffffff;
+            margin: 0 8px;
+            padding: 6px 12px;
+            border-radius: 5px;
+            transition: background 0.3s, color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #ffd166;
+            color: #000000;
+        }
+
+        /* ===== SECTION ===== */
+        section {
+            max-width: 700px;
+            margin: 50px auto;
+            padding: 30px;
+            background-color: #1c2541;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+        }
+
+        section h2 {
+            text-align: center;
+            color: #ffd166;
+            margin-bottom: 25px;
+            font-size: 22px;
+        }
+
+        /* ===== FORM ===== */
+        form {
+            width: 100%;
+        }
+
+        label {
+            font-size: 14px;
+            color: #e0e0e0;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 6px;
+            border-radius: 6px;
+            border: none;
+            outline: none;
+            font-size: 14px;
+            background-color: #0b132b;
+            color: #ffffff;
+        }
+
+        textarea {
+            resize: none;
+        }
+
+        input::placeholder,
+        textarea::placeholder {
+            color: #aaaaaa;
+        }
+
+        button {
+            width: 100%;
+            margin-top: 20px;
+            padding: 12px;
+            border: none;
+            border-radius: 6px;
+            background-color: #3a86ff;
+            color: #ffffff;
+            font-size: 15px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        button:hover {
+            background-color: #ffd166;
+            color: #000000;
+        }
+
+        /* ===== CONTACT INFO ===== */
+        section p {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 14px;
+            color: #cccccc;
+        }
+
+        /* ===== RESPONSIVE ===== */
+        @media (max-width: 600px) {
+            section {
+                margin: 20px;
+                padding: 20px;
+            }
+
+            header h1 {
+                font-size: 22px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>WASILIANA NASI</h1>
+        <nav>
+            <a href="index.html">HOME</a>
+            <a href="about.html">ABOUT</a>
+            <a href="service.html">SERVICE</a>
+            <a href="blog.html">BLOG</a>
+            <a href="contact.html">CONTACT</a>
+        </nav>
+    </header>
+
+    <section>
+        <h2>TUMA UJUMBE WAKO HAPA</h2>
+
+        <form>
+            <label>JINA LAKO</label>
+            <input type="text" placeholder="Weka jina lako" required>
+
+            <br><br>
+
+            <label>EMAIL YAKO</label>
+            <input type="email" placeholder="Weka email yako" required>
+
+            <br><br>
+
+            <label>UJUMBE</label>
+            <textarea rows="5" placeholder="Andika ujumbe wako hapa" required></textarea>
+
+            <button type="submit">TUMA UJUMBE</button>
+        </form>
+
+        <p>AU TUPIGIE KWA: <b>+255 000 000 000</b></p>
+    </section>
+
+</body>
+</html>

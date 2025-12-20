@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="sw">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABOUT US - ULINZI WA KIMTANDAO</title>
+
+    <style>
+        /* ===== RESET ===== */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Segoe UI", Tahoma, Arial, sans-serif;
+        }
+
+        body {
+            background-color: #0b132b;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+
+        /* ===== HEADER ===== */
+        header {
+            background: linear-gradient(135deg, #1c2541, #3a86ff);
+            padding: 25px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 28px;
+            margin-bottom: 15px;
+            letter-spacing: 1px;
+        }
+
+        /* ===== NAV ===== */
+        nav a {
+            text-decoration: none;
+            color: #ffffff;
+            margin: 0 8px;
+            padding: 6px 12px;
+            border-radius: 5px;
+            transition: background 0.3s, color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #ffd166;
+            color: #000000;
+        }
+
+        /* ===== SECTION ===== */
+        section {
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 35px;
+            background-color: #1c2541;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+        }
+
+        section h2 {
+            font-size: 24px;
+            color: #ffd166;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        section h3 {
+            font-size: 20px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            color: #3a86ff;
+        }
+
+        section p {
+            font-size: 16px;
+            color: #e0e0e0;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        /* ===== LIST ===== */
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        ul li {
+            background-color: #0b132b;
+            padding: 15px 20px;
+            margin-bottom: 12px;
+            border-radius: 8px;
+            position: relative;
+            padding-left: 45px;
+            font-size: 15px;
+        }
+
+        ul li::before {
+            content: "✔";
+            position: absolute;
+            left: 15px;
+            color: #ffd166;
+            font-weight: bold;
+        }
+
+        /* ===== RESPONSIVE ===== */
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 22px;
+            }
+
+            section {
+                margin: 20px;
+                padding: 25px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>KUHUSU SISI</h1>
+        <nav>
+            <a href="index.html">HOME</a>
+            <a href="about.html">ABOUT</a>
+            <a href="service.html">SERVICE</a>
+            <a href="blog.html">BLOG</a>
+            <a href="contact.html">CONTACT</a>
+        </nav>
+    </header>
+
+    <section>
+        <h2>LENGO LETU KUU</h2>
+
+        <p>
+            Sisi ni timu ya wataalamu wa TEHAMA wanaolenga kutoa elimu ya bure
+            kuhusu ulinzi wa data, usalama wa mifumo ya kompyuta,
+            na matumizi salama ya mtandao kwa jamii.
+        </p>
+
+        <h3>KWANINI UTUCHAGUE?</h3>
+
+        <ul>
+            <li>Tuna uzoefu wa muda mrefu katika masuala ya usalama wa kimtandao.</li>
+            <li>Tunatoa mafunzo kwa lugha rahisi inayoeleweka kwa kila mtu.</li>
+            <li>Tunalinda maslahi ya mtumiaji wa kawaida na taasisi.</li>
+        </ul>
+    </section>
+
+</body>
+</html>
